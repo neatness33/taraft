@@ -1,71 +1,21 @@
 # Taraftarium24
 
-Bağımsız spor bilgi ve **yasal maç yayın rehberi** sitesi.
+Saf HTML / CSS / JS. Tüm sayfalar ana dizinde `.html` dosyası.
 
-**Domain:** https://taraftarium24.store  
-**Teknoloji:** Saf HTML / CSS / JS (Node.js yok, build yok)  
-**Barındırma:** GitHub Pages + özel domain
-
-## Yasal not
-
-Bu site:
-
-- canlı maç yayını barındırmaz
-- IPTV aboneliği satmaz / önermez
-- APK dosyası dağıtmaz
-- yayın haklarına sahip değildir
-- yalnızca spor bilgisi, fikstür ve yasal yayıncı bilgilendirmesi sunar
-
-## Klasör yapısı
-
-```
-/
-├── index.html
-├── 404.html
-├── CNAME
-├── robots.txt
-├── sitemap.xml
-├── rss.xml
-├── manifest.webmanifest
-├── humans.txt
-├── .well-known/security.txt
-├── assets/css/style.css
-├── assets/js/config.js
-├── assets/js/main.js
-└── [sayfa-adi]/index.html
-```
+**Domain:** https://taraftarium24.store
 
 ## GitHub’a yükleme
 
-1. Yeni bir GitHub deposu oluşturun.
-2. Bu klasörün tüm içeriğini yükleyin (`git push` veya GitHub web arayüzü).
-3. **Settings → Pages**:
-   - Source: **GitHub Actions** (önerilen) veya `main` branch / root
-4. Özel domain olarak `taraftarium24.store` ekleyin.
-5. DNS’te:
-   - `A` kayıtları GitHub Pages IP’lerine
-   - veya `CNAME` → `kullanici.github.io`
-6. HTTPS’i etkinleştirin.
+Ana dizindeki dosyaları olduğu gibi yükle:
+- `index.html`
+- `bugunku-maclar.html`
+- `canli-mac-rehberi.html`
+- … diğer `.html` dosyaları
+- `assets/` klasörü
+- `CNAME`, `robots.txt`, `sitemap.xml` vb.
 
-`CNAME` dosyası zaten `taraftarium24.store` içerir.
+Settings → Pages → Source: **GitHub Actions** (veya main / root)
 
-## Analitik / sohbet ayarı
-
-Tüm kimlikler tek dosyada:
+## Ayar
 
 `assets/js/config.js`
-
-- `ga4MeasurementId` → Google Analytics 4
-- `gscVerification` → Search Console meta doğrulama
-- `clarityProjectId` → Microsoft Clarity
-- `tawkTo` → Tawk.to (şu an verdiğiniz kimliklerle etkin)
-
-## Yerel önizleme
-
-Herhangi bir statik sunucu yeterli. Örnek (Python):
-
-```bash
-python -m http.server 8080
-```
-
-Tarayıcıda: http://localhost:8080
