@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Taraftarium24</title>
+    <link>https://taraftarium24.store/</link>
+    <description>Bağımsız spor bilgi ve yasal maç yayın rehberi</description>
+    <language>tr</language>
+    <item>
+      <title>Canlı maç rehberi</title>
+      <link>https://taraftarium24.store/canli-mac-rehberi/</link>
+      <guid>https://taraftarium24.store/canli-mac-rehberi/</guid>
+      <description>Yasal canlı maç izleme adımları ve sahte site uyarıları.</description>
+    </item>
+    <item>
+      <title>Bugünkü maçlar</title>
+      <link>https://taraftarium24.store/bugunku-maclar/</link>
+      <guid>https://taraftarium24.store/bugunku-maclar/</guid>
+      <description>Fikstür okuma ve yayın doğrulama rehberi.</description>
+    </item>
+    <item>
+      <title>Yasal maç izleme platformları</title>
+      <link>https://taraftarium24.store/yasal-mac-izleme-platformlari/</link>
+      <guid>https://taraftarium24.store/yasal-mac-izleme-platformlari/</guid>
+      <description>Lisanslı spor kanalları ve dijital platform seçimi.</description>
+    </item>
+    <item>
+      <title>SelçukSports nedir?</title>
+      <link>https://taraftarium24.store/selcuksports-nedir/</link>
+      <guid>https://taraftarium24.store/selcuksports-nedir/</guid>
+      <description>Bağımsız bilgilendirme; kaçak alternatif önerilmez.</description>
+    </item>
+    <item>
+      <title>İnat TV APK güvenli mi?</title>
+      <link>https://taraftarium24.store/inat-tv-apk-guvenli-mi/</link>
+      <guid>https://taraftarium24.store/inat-tv-apk-guvenli-mi/</guid>
+      <description>APK güvenlik riskleri hakkında bilgilendirme.</description>
+    </item>
+  </channel>
+</rss>

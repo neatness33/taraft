@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://taraftarium24.store/sitemap.xml

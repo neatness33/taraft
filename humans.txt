@@ -1,0 +1,10 @@
+/* TEAM */
+Site: Taraftarium24
+Contact: info@taraftarium24.store
+URL: https://taraftarium24.store
+
+/* SITE */
+Standards: HTML5, CSS3
+Language: Turkish
+Purpose: Independent sports information and legal broadcasting guide
+Notes: No streams, no IPTV, no APK distribution
