@@ -1,21 +1,5 @@
 # Taraftarium24
 
-Saf HTML / CSS / JS. Tüm sayfalar ana dizinde `.html` dosyası.
+Tek klasör, düz HTML. CSS her sayfanın içinde — ekstra klasör gerekmez.
 
-**Domain:** https://taraftarium24.store
-
-## GitHub’a yükleme
-
-Ana dizindeki dosyaları olduğu gibi yükle:
-- `index.html`
-- `bugunku-maclar.html`
-- `canli-mac-rehberi.html`
-- … diğer `.html` dosyaları
-- `assets/` klasörü
-- `CNAME`, `robots.txt`, `sitemap.xml` vb.
-
-Settings → Pages → Source: **GitHub Actions** (veya main / root)
-
-## Ayar
-
-`assets/js/config.js`
+Yükle: tüm `.html` + `CNAME` + `robots.txt` + `sitemap.xml`
